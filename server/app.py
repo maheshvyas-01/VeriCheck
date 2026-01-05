@@ -13,7 +13,7 @@ def get_db_connection():
     try:
         conn = pyodbc.connect(
             "DRIVER={SQL Server};"
-            "SERVER=MAHESH\\SQLEXPRESS;" 
+            "SERVER=Your_server_name;" 
             "DATABASE=VeriCheckDB;"
             "Trusted_Connection=yes;"
         )
